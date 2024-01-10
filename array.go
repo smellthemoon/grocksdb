@@ -1,7 +1,10 @@
 package grocksdb
 
-// #include "stdlib.h"
-// #include "rocksdb/c.h"
+/*
+ #cgo pkg-config: rocksdb
+ #include <stdlib.h>
+ #include "rocksdb/c.h"
+*/
 import "C"
 
 import (
